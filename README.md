@@ -7,3 +7,16 @@ Searches info
 Summarizes
 Stores result
 (Optional) Emails it
+
+**What you’re building (Architecture)**
+User (Web UI)
+   ↓
+ASP.NET Core API
+   ↓
+Agent Service
+   ↓
+LLM (OpenAI / Azure OpenAI)
+   ↓
+Tools (Search, DB, Email)
+   ↓
+Memory (optional: Redis / DB)
