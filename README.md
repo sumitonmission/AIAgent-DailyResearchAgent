@@ -1,22 +1,23 @@
-Project: “Daily Research Agent” (Simple but Powerful)
+# 🚀 Daily Research Agent
 
-👉 You give a topic
-👉 Agent:
+An AI-powered research assistant built using **ASP.NET Core + OpenAI**.
 
-Searches info
-Summarizes
-Stores result
-(Optional) Emails it
+👉 Provide a topic  
+👉 The agent will:
+- 🔍 Search for relevant information  
+- 🧠 Generate a concise summary  
+- 💾 Store the result  
+- 📧 (Optional) Send via email  
 
-**What you’re building (Architecture)**
-User (Web UI)
-   ↓
-ASP.NET Core API
-   ↓
-Agent Service
-   ↓
-LLM (OpenAI / Azure OpenAI)
-   ↓
-Tools (Search, DB, Email)
-   ↓
-Memory (optional: Redis / DB)
+---
+
+## 🧠 Why This Project Matters
+
+This is not just another API project.
+
+You are building:
+- An **AI Agent (decision-making flow)**
+- A **multi-service backend system**
+- A foundation for **real-world AI applications**
+
+---
